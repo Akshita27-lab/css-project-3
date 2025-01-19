@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 20px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 6px;
+    color: aliceblue;
+    background-color: black;
+}
+#center{
+    width: 100%;
+    padding: 0px 50px;
+}
+#center h1{
+    font-size: 5vw;
+    font-weight: 500 ;
+    line-height: 4.9vw;
+}
+#center-1{
+    height: 190px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-1 p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 2vw;
+
+}
+#right{
+    width: 20%;
+}
+.center-2{
+    margin-top: 2px;
+    padding: 15px 0px;
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.center-2 i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.center-2:hover i{
+    opacity: 1;
+    
+}
+.center-2 a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.center-2:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    height: 32%;
+    width: 100%;
+    background-color: rgb(24, 121, 121);
+    background-image: url(https://media.istockphoto.com/id/1487343386/photo/beautiful-young-woman-in-cocktail-dress.jpg?s=2048x2048&w=is&k=20&c=0yfFW940snUkbg7GawIDgPFEZsBYyW0ho1v7oSS0e38=);
+    background-size: cover;
+    background-position: 0% 8%;
+}
+ @media (max-width:600px) {
+    #nav{
+        height: 40px;
+        gap: 15px;
+        padding: 0px 10px;
+    }
+    #nav h4{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    nav i{
+        font-size: 15px;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 2px;
+        color: aliceblue;
+        background-color: black;
+    }
+    #center{
+        width: 100%;
+        padding: 0px 20px;
+        
+    }
+    #center h1{
+        font-size: 8vw;
+        font-weight: 500 ;
+        line-height: 8vw;
+    }
+    #center-1{
+        height: 190px;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    #center-1 p{
+        font-size: 2.9vw;
+        font-weight: 300;
+        line-height: 3.5vw;
+    
+    }
+    #right{
+        width: 100%;
+    }
+    .center-2{
+        margin-top: 1px;
+        padding: 10px 0px;
+        border-top: 1.8px solid black;
+        
+       
+    }
+    .center-2 i{
+        font-size: 15px;
+        font-weight: 400;
+        opacity: 1;
+    }
+    .center-2:hover i{
+        opacity: 1;
+        
+    }
+    .center-2 a{
+        color: #000;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .center-2:hover a{
+        text-decoration: underline;
+    }
+    #bottom{
+        height: 43%;
+        width: 100%;
+        background-color: rgb(24, 121, 121);
+        background-image: url(https://media.istockphoto.com/id/1487343386/photo/beautiful-young-woman-in-cocktail-dress.jpg?s=2048x2048&w=is&k=20&c=0yfFW940snUkbg7GawIDgPFEZsBYyW0ho1v7oSS0e38=);
+        background-size: cover;
+        background-position: 0% 10%;
+    }
+}
